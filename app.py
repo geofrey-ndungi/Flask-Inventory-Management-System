@@ -98,15 +98,7 @@ def remove_item(id):
     return jsonify({"message": "Item not found"}), 404
 
 
-# GET product from OpenFoodFacts
-@app.route('/lookup', methods=['GET'])
-def lookup_product():
 
-    response = requests.get(url)
-
-    info = response.json()
-
-    return jsonify(info), 200
 
 
 if __name__ == "__main__":
