@@ -251,16 +251,7 @@ The following tests should be performed:
 The CLI should also be tested by selecting each menu option and checking
 that the expected operation is performed.
 
-## 11. Limitations
-
--   The inventory is stored in a Python list rather than a permanent
-    database.
--   Inventory changes are lost when the Flask server stops.
--   The application is intended for learning and demonstration purposes.
--   The Flask development server is not intended for production
-    deployment.
-
-## 12. Conclusion
+## 11. Conclusion
 
 The Inventory Management System demonstrates how to build a basic REST
 API using Flask and how to interact with that API through a command-line
