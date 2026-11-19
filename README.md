@@ -1,1 +1,2 @@
-# Flask-Inventory-Management-System-
+# Flask Inventory Management System
+
